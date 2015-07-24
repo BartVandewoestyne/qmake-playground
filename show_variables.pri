@@ -1,0 +1,5 @@
+message("  CONFIG = $${CONFIG}")
+message("  DEFINES = $${DEFINES}")
+message("  DESTDIR = $${DESTDIR}")
+message("  QT = $${QT}")
+message("  TEMPLATE = $${TEMPLATE}")

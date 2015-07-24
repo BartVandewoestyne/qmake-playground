@@ -1,13 +1,4 @@
-TARGET = lib
+TEMPLATE = lib
 
-CONFIG += dll
-
-message("Hello world!")
-
-dll {
-    message("Inside dll scope")
-}
-
-win32:dll {
-    message("Inside win32:dll scope")
-}
+message("TEMPLATE = lib:")
+include(show_variables.pri)
